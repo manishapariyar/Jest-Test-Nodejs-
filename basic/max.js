@@ -1,7 +1,6 @@
-function max (a,b){
-  if(a>b) return a;
-  else if (b>a) return b;
-  return a;
+function max(a, b) {
+  if (a > b) return a;
+  else return b; 
 }
 
 module.exports = max;

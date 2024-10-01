@@ -21,12 +21,19 @@ async function  insertProduct (req,res){
 
 async function getProductHandler(req,res) {
 
-  const { productId } = req.params;
-  const product = products[productId];
-  if(!product){
-    return res.status(404).json({ message: "Product is not found" });
+  try {
+    const { productId } = req.params;
+    
+    const product = await products.findById(productId); 
+    if (!product) {
+      return res.status(404).json({ message: "Product not found" });
+    }
+    
+    res.status(200).json({ message: "Success", product }); // 
+  } catch (err) {
+    console.error("Error fetching product:", err); 
+    res.status(500).json({ message: "Failed to fetch product", error: err.message }); 
   }
-  res.status(200).json( {message :"success"})
   
 }
 

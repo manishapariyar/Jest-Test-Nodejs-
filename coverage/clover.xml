@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1727805865544" clover="3.2.0">
+  <project timestamp="1727805865545" name="All files">
+    <metrics statements="71" coveredstatements="62" conditionals="12" coveredconditionals="10" methods="10" coveredmethods="10" elements="93" coveredelements="82" complexity="0" loc="71" ncloc="71" packages="6" files="10" classes="10"/>
+    <package name="jestlearning">
+      <metrics statements="13" coveredstatements="13" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <file name="server.js" path="E:\jestlearning\server.js">
+        <metrics statements="13" coveredstatements="13" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="7" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="14" count="2" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="18" count="2" type="stmt"/>
+        <line num="19" count="2" type="stmt"/>
+        <line num="22" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="jestlearning.basic">
+      <metrics statements="10" coveredstatements="10" conditionals="2" coveredconditionals="2" methods="5" coveredmethods="5"/>
+      <file name="fetchMatch.js" path="E:\jestlearning\basic\fetchMatch.js">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+      </file>
+      <file name="max.js" path="E:\jestlearning\basic\max.js">
+        <metrics statements="3" coveredstatements="3" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="2" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+      </file>
+      <file name="sum.js" path="E:\jestlearning\basic\sum.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="jestlearning.config">
+      <metrics statements="9" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="db.js" path="E:\jestlearning\config\db.js">
+        <metrics statements="9" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="5" count="3" type="stmt"/>
+        <line num="6" count="4" type="stmt"/>
+        <line num="7" count="4" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="15" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="jestlearning.controllers">
+      <metrics statements="24" coveredstatements="17" conditionals="6" coveredconditionals="4" methods="3" coveredmethods="3"/>
+      <file name="productController.js" path="E:\jestlearning\controllers\productController.js">
+        <metrics statements="16" coveredstatements="12" conditionals="2" coveredconditionals="1" methods="2" coveredmethods="2"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="28" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="29" count="1" type="stmt"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="34" count="0" type="stmt"/>
+        <line num="35" count="0" type="stmt"/>
+        <line num="40" count="2" type="stmt"/>
+      </file>
+      <file name="userController.js" path="E:\jestlearning\controllers\userController.js">
+        <metrics statements="8" coveredstatements="5" conditionals="4" coveredconditionals="3" methods="1" coveredmethods="1"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="4" count="2" type="cond" truecount="3" falsecount="1"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="jestlearning.models">
+      <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="0" coveredmethods="0"/>
+      <file name="productModel.js" path="E:\jestlearning\models\productModel.js">
+        <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="0" coveredmethods="0"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="10" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="12" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="jestlearning.routes">
+      <metrics statements="11" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="ProductRouter.js" path="E:\jestlearning\routes\ProductRouter.js">
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="12" count="2" type="stmt"/>
+      </file>
+      <file name="UserRouter.js" path="E:\jestlearning\routes\UserRouter.js">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
