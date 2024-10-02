@@ -6,6 +6,23 @@ const { register, createToken } = require('../controllers/userController.js');
 const users = require('../models/userModel');
 const bcrypt = require('bcrypt');
 
+
+
+
+describe('UserController', () => {
+  let timer;
+
+  beforeEach(() => {
+    timer = setTimeout(() => {
+      // some code that needs to run after a delay
+    }, 1000);
+  });
+
+  afterEach(() => {
+    timer.unref(); // call unref to allow the timer to be garbage collected
+  });
+
+  
 describe('POST /api/users', () => {
   describe('given username and password', () => {
     it('should respond with a 200 status code', async () => {
@@ -31,11 +48,22 @@ describe('POST /api/users/login', () => {
     );
   });
 });
+});
+
+
+
+
+
+
+
+
+
+
 
 // describe('register', () => {
-//   afterEach(() => {
-//     jest.clearAllMocks();
-//   });
+  // afterEach(() => {
+  //   jest.clearAllMocks();
+  // });
 
 //   it('should return 400 if any field is missing', async () => {
 //     const { req, res } = mockReqRes();
