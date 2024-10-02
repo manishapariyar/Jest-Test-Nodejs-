@@ -10,10 +10,10 @@ async function  insertProduct (req,res){
       description:description
       })
       await product.save()
-      res.status(201).json({message:"Product created successfully"})
+     return res.status(201).json({message:"Product created successfully"})
     }
     catch(err){
-      res.status(500).send(err)
+     return  res.status(500).send(err)
     }
 }
 
@@ -29,10 +29,10 @@ async function getProductHandler(req,res) {
       return res.status(404).json({ message: "Product not found" });
     }
     
-    res.status(200).json({ message: "Success", product }); // 
+     return res.status(200).json({ message: "Success", product }); // 
   } catch (err) {
     console.error("Error fetching product:", err); 
-    res.status(500).json({ message: "Failed to fetch product", error: err.message }); 
+     return res.status(500).json({ message: "Failed to fetch product", error: err.message }); 
   }
   
 }

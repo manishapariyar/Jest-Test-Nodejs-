@@ -1,6 +1,7 @@
 const users = require("../models/userModel")
 const bcrypt = require("bcrypt")
 const jwt = require("jsonwebtoken");
+const validator = require("validator")
 
 
 
@@ -27,6 +28,11 @@ async function register(req,res){
     const {username, password, email} = req.body;
     if (!username || !password || !email) {
       return res.status(400).json({ message: "Please enter all fields" });
+      }
+      if (!validator.isEmail(email)) {
+        return res
+          .status(400)
+          .json({ success: false, message: "Invalid email format" });
       }
       const exists = await users.findOne({ username });
       if (exists) {
